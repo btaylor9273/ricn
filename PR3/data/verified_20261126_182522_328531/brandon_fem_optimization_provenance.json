@@ -1,0 +1,47 @@
+{
+  "rafael_manifest": "C:\\Users\\gothi\\Documents\\EEE488_CAPSTONE\\ricn\\PR3\\PR3_Rafael_handoff.json",
+  "rafael_manifest_sha256": "38a6b0409afdf902e7f467fdf23d643c9c1c8fafefe46a5c6b442be089f97d91",
+  "upstream_visual_review": "PENDING",
+  "d70_mean_V_per_m": 108.14961957680573,
+  "nominal_per_coil_energy_J": 86.0,
+  "input_mesh_hashes": {
+    "P1": "b1f897235a9869ae6a99cfe5d1eab3912c59f99c49755331a88bc71f29e5b554",
+    "P2": "9879e8583563c76a99023fad84420d8462d75494abf74389c05d99418f82276e",
+    "P3": "69db85084413eaf52f1a884dc85aa4182a5f46ba298473e5192f089257d08afc"
+  },
+  "input_meshes": {
+    "P1": "C:\\Users\\gothi\\Documents\\EEE488_CAPSTONE\\ricn\\PR3\\P1\\ernie_TMS_1-0001_NFF5_CORT_C01_N10_EB86_scalar.msh",
+    "P2": "C:\\Users\\gothi\\Documents\\EEE488_CAPSTONE\\ricn\\PR3\\P2\\ernie_TMS_1-0001_NFF5_CORT_C01_N10_EB86_scalar.msh",
+    "P3": "C:\\Users\\gothi\\Documents\\EEE488_CAPSTONE\\ricn\\PR3\\P3\\ernie_TMS_1-0001_NFF5_CORT_C01_N10_EB86_scalar.msh"
+  },
+  "target_mni_mm": [
+    -38.0,
+    44.0,
+    26.0
+  ],
+  "target_subject_mm": [
+    -33.71040725708008,
+    70.7480239868164,
+    43.76509094238281
+  ],
+  "roi_radius_mm": 10.0,
+  "reference_didt_A_per_s": 207300000.0,
+  "baseline_weights": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "optimized_weights": [
+    0.49999999670995476,
+    0.9999999921846148,
+    1.1105430353097745e-08
+  ],
+  "normalized_three_coil_budget": 1.5,
+  "surface_cap_ratio_to_baseline": 1.1,
+  "optimizer_seed": 488,
+  "optimizer_success": true,
+  "optimizer_feasible": true,
+  "source": "Rafael three-position FEM datasets; Brandon student execution",
+  "constraints_exploratory": true,
+  "single_coil_comparisons_not_budget_matched": true
+}
