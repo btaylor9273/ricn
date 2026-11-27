@@ -1,0 +1,173 @@
+{
+  "simnibs_version": "4.6.0",
+  "head_sha256": "847707671cc93db548948b46b715c4c67513e1cb7fbed289b6609963174e67cc",
+  "coil_sha256": "692127d19ad33bec54c9e1acb7442f0fc610802b5d57d19f5325eeb0cf525579",
+  "coil_id": "NFF5_CORT_C01_N10_EB86",
+  "didt_A_per_s": 207300000.0,
+  "nominal_per_coil_energy_J": 86,
+  "nominal_system_energy_J": 258,
+  "target": [
+    -33.71040725708008,
+    70.7480239868164,
+    43.76509094238281
+  ],
+  "roi_radius_mm": 10.0,
+  "d70_reference_manifest": "G:\\My Drive\\ASU\\2026 fall\\EEE 488 Capstone semester 1\\team\\written reports\\written report 3\\reference notebooks\\cort\\data\\verified_20261123_225117_942811\\comparison.json",
+  "d70_mean": 108.14961957680573,
+  "placements": {
+    "P1": {
+      "matrix": [
+        [
+          0.6500416725423783,
+          0.51628404211653,
+          0.5575810360962111,
+          -47.8688115549503
+        ],
+        [
+          0.7593647900766909,
+          -0.4138383939541846,
+          -0.5020984955974317,
+          84.7484279810725
+        ],
+        [
+          -0.028477000370304567,
+          0.7497923522851097,
+          -0.6610601250299941,
+          75.6897476303721
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scalp_center": [
+        -39.5014227301915,
+        77.2136427767471,
+        65.7694907626059
+      ],
+      "normal": [
+        -0.5575810360962111,
+        0.5020984955974317,
+        0.6610601250299941
+      ],
+      "clearance_lower_bound_mm": 4.019914800611284,
+      "axis_dot_outward": -0.9999999999999999,
+      "tilt_deg": 8.537736462515939e-07
+    },
+    "P2": {
+      "matrix": [
+        [
+          0.7049514974455893,
+          0.3114187684201546,
+          0.6372297363784081,
+          -50.42842658633384
+        ],
+        [
+          0.7060507030857355,
+          -0.2228169711241447,
+          -0.6721941699027153,
+          105.56703465580156
+        ],
+        [
+          -0.06734828076023766,
+          0.923780790044227,
+          -0.3769525978474005,
+          49.439789273479576
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scalp_center": [
+        -40.7315568138131,
+        95.3381031491846,
+        43.7036158919395
+      ],
+      "normal": [
+        -0.6372297363784081,
+        0.6721941699027153,
+        0.3769525978474005
+      ],
+      "clearance_lower_bound_mm": 4.020032435603992,
+      "axis_dot_outward": -1.0,
+      "tilt_deg": 0.0
+    },
+    "P3": {
+      "matrix": [
+        [
+          0.3913314016898971,
+          0.2760965985223278,
+          0.8778555703165646,
+          -70.40781264942888
+        ],
+        [
+          0.9115789776997886,
+          -0.24694494011296067,
+          -0.3286973744470965,
+          76.57040025276328
+        ],
+        [
+          0.1260297642115897,
+          0.92886428763141,
+          -0.34832116458200507,
+          50.18901636778878
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scalp_center": [
+        -56.9691078622685,
+        71.5385167301511,
+        44.8567208738393
+      ],
+      "normal": [
+        -0.8778555703165646,
+        0.3286973744470965,
+        0.34832116458200507
+      ],
+      "clearance_lower_bound_mm": 4.018818446494674,
+      "axis_dot_outward": -0.9999999999999999,
+      "tilt_deg": 8.537736462515939e-07
+    }
+  },
+  "mesh_compatibility": "PASS",
+  "visual_review": "PENDING",
+  "results": [
+    {
+      "position": "P1",
+      "mean_E_V_per_m": 21.878651138949145,
+      "percent_D70": 20.229984372170033,
+      "roi_count": 4091,
+      "roi_volume_mm3": 1983.9868901771138,
+      "mesh": "G:\\My Drive\\ASU\\2026 fall\\EEE 488 Capstone semester 1\\team\\written reports\\written report 3\\reference notebooks\\rafi\\data\\verified_20261123_233514_803579\\P1\\ernie_TMS_1-0001_NFF5_CORT_C01_N10_EB86_scalar.msh",
+      "mesh_sha256": "b1f897235a9869ae6a99cfe5d1eab3912c59f99c49755331a88bc71f29e5b554"
+    },
+    {
+      "position": "P2",
+      "mean_E_V_per_m": 22.496348639318423,
+      "percent_D70": 20.80113524887802,
+      "roi_count": 4091,
+      "roi_volume_mm3": 1983.9868901771138,
+      "mesh": "G:\\My Drive\\ASU\\2026 fall\\EEE 488 Capstone semester 1\\team\\written reports\\written report 3\\reference notebooks\\rafi\\data\\verified_20261123_233514_803579\\P2\\ernie_TMS_1-0001_NFF5_CORT_C01_N10_EB86_scalar.msh",
+      "mesh_sha256": "9879e8583563c76a99023fad84420d8462d75494abf74389c05d99418f82276e"
+    },
+    {
+      "position": "P3",
+      "mean_E_V_per_m": 21.654482053228232,
+      "percent_D70": 20.022707558254186,
+      "roi_count": 4091,
+      "roi_volume_mm3": 1983.9868901771138,
+      "mesh": "G:\\My Drive\\ASU\\2026 fall\\EEE 488 Capstone semester 1\\team\\written reports\\written report 3\\reference notebooks\\rafi\\data\\verified_20261123_233514_803579\\P3\\ernie_TMS_1-0001_NFF5_CORT_C01_N10_EB86_scalar.msh",
+      "mesh_sha256": "69db85084413eaf52f1a884dc85aa4182a5f46ba298473e5192f089257d08afc"
+    }
+  ]
+}
